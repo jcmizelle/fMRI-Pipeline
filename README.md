@@ -1,6 +1,6 @@
 # fMRI / DTI analysis pipeline (FSL, FreeSurfer, SPM)
 
-Batch scripts for task-fMRI and diffusion analysis written by J. Christopher Mizelle, PhD, for studies of tool use, action understanding, and sensorimotor control at Georgia Tech and the Atlanta VA (2009-2015). Two generations are included: an SPM/MATLAB batch system (2009-2011) and a Bash/FSL/FreeSurfer pipeline (2011-2015).
+Batch scripts for task-fMRI and diffusion analysis written by J.C. (Chris) Mizelle, PhD, for studies of tool use, action understanding, and sensorimotor control at Georgia Tech and the Atlanta VA (2009-2015). Two generations are included: an SPM/MATLAB batch system (2009-2011) and a Bash/FSL/FreeSurfer pipeline (2011-2015).
 
 ## FSL first-level pipeline (`fsl/first_level/`)
 One script per study, built from a common template. Run with subject folder names as arguments:
@@ -39,4 +39,4 @@ FSL 4/5, FreeSurfer 5.x (TRACULA), dcm2nii (MRIcron), BXH/XCEDE tools, MATLAB wi
 - These are working research scripts, kept close to how they ran.
 
 ## License
-GPL-3.0 (add via GitHub's license picker when creating the repository).
+GPL-3.0. See LICENSE.
